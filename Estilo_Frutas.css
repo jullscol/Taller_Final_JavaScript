@@ -1,0 +1,37 @@
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+
+  display: block;
+  padding: 20px 5px;
+
+  background: lightgrey;
+  width: 250;
+  margin: auto;
+}
+div  {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first li:nth-child(2n+1) {
+  background-color: lime;
+}
+
+.first li:nth-child(2n) {
+  background-color: blue;
+}
+
+
+.estilo1 li:nth-child(2n+1) {
+  background-color: blue;
+}
+
+.estilo1 li:nth-child(2n) {
+  background-color: lime;
+}
