@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos PSEINT</title>
+
+</head>
+
+<body>
+
+   
+
+    <p>FUNCIONES</p>
+
+    <i> Funciones_Condicionales4.psc</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+SubProceso  menu()
+    Escribir "Elija opcion";
+    Escribir "1.Alquilar pelicula";
+    Escribir "2.Consultar si esta disponble";
+    Escribir "3. Recibir pelicula";
+FinSubProceso
+
+
+SubProceso  eleccion()
+    
+    Definir alquiler Como entero;
+    Definir consulta Como entero;
+    Definir recibir Como Logico;;
+    Definir estado Como Logico;
+    Definir op como entero;
+    Escribir "_______________________________________________";
+    Escribir "Seleccione una opcion :";
+    Leer op;
+    Segun op Hacer
+        
+        1: 
+            Escribir "¿que pelicula desea alquilar?";
+            Escribir "1:Rambo";
+            Escribir "2:Roky";
+            Escribir "3:Terminator";
+            Leer alquiler;
+        2:  
+            Escribir "¿Que pelicula desea consultar?";
+            Escribir "1:Rambo";
+            Escribir "2:Roky";
+            Escribir "3:Terminator";
+            Leer consulta;
+            Si consulta = 1 entonces
+                Escribir " la pelicula si se encuentra";
+            FinSi
+            Si consulta = 2 entonces
+                Escribir " la pelicula si se encuentra";
+            FinSi
+            Si consulta = 3 entonces
+                Escribir " la pelicula si se encuentra";
+            FinSi
+            
+            
+        3:
+            Escribir "¿La pelicula esta mala?";
+            leer recibir;
+            Si recibir = Verdadero Entonces
+                Escribir " Dejar anotacion";
+                
+            FinSi
+        
+    Finsegun
+FinSubProceso
+
+
+Proceso condicionales4
+    Escribir "_______________________________________________";
+    Escribir "video flechas";
+    Escribir "_______________________________________________";
+    Escribir " ";
+    menu;
+    eleccion;
+    
+FinProceso
+
+
+
+
+  </pre>
+
+</body>
+</html>

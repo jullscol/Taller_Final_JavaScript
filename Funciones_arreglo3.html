@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos PSEINT</title>
+
+</head>
+
+<body>
+
+   
+
+    <p>FUNCIONES</p>
+
+    <i>Funciones_arreglo3.psc </i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+Proceso sin_titulo
+    
+    Definir num Como Entero;    
+    num<-0;
+    
+    NumerosPrimos(num);
+    
+FinProceso
+
+SubProceso NumerosPrimos(num)
+    definir x,contador como entero;
+    para num <- 1 hasta 1000 hacer      
+        x<- 1;
+        contador <- 0;
+        mientras x <= num hacer
+            si num mod x == 0 entonces
+                contador <- contador + 1;
+            FinSi
+            x<-x+1;
+        FinMientras
+        
+        si contador == 2 entonces
+            escribir "El numero, ",num, " es primo ";
+        FinSi               
+    Finpara 
+    
+FinSubProceso
+    
+
+
+
+
+  </pre>
+
+</body>
+</html>

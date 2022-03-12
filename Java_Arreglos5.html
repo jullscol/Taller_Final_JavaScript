@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos JAVA</title>
+
+</head>
+
+<body>
+
+   
+
+    <p> ARREGLOS JAVA</p>
+
+    <i> Java_Arreglos_Punto5.java</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+package Taller4;
+
+import java.util.Scanner;
+
+public class Punto5 {
+
+    
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+        
+    int filas = 10;
+    int columnas = 10;
+    int[][] resultadoTabla =new int[filas][columnas]; 
+    
+    for(int i=0;i<filas;i++)
+    {
+        for(int j=0;j<columnas;j++)
+        {
+            System.out.print((i+1)+"x"+(j+1)+" ");
+            resultadoTabla[i][j] = (i+1)*(j+1); 
+        }
+        System.out.println("");
+        
+        
+    }
+    
+    System.out.println("Escribe el dato de la fila");
+    int datoFila= sc.nextInt();
+    System.out.println("Escribe el dato de la columna");
+    int datoColumna=sc.nextInt();
+    
+    System.out.print("Resultado: "+datoFila+"x"+datoColumna+"="+resultadoTabla[datoFila-1][datoColumna-1]);
+    
+    sc.close();
+    }
+    
+    
+}
+   
+
+  </pre>
+
+</body>
+</html>

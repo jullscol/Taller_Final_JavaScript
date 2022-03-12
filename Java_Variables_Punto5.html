@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos JAVA</title>
+
+</head>
+
+<body>
+
+   
+
+    <p> VARIABLES JAVA</p>
+
+    <i> Java_Variables_Punto5.java</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+package Taller1;
+
+import java.util.Scanner;
+
+public class Punto5 {
+
+    public static void main(String[] args) {
+
+
+        Scanner teclado = new Scanner(System.in);
+
+        String nombreM, nombreD, Tipo;
+
+        int edad;
+
+
+
+        System.out.println("Ingrese Nombre del dueño ");
+
+        nombreD = teclado.nextLine();
+
+        System.out.println("Ingrese Nombre de la mascota");
+
+        nombreM = teclado.nextLine();
+
+
+        System.out.println("Ingrese el tipo de mascota");
+
+        Tipo = teclado.nextLine();
+
+
+        System.out.println("Ingrese la edad de su mascota ");
+
+        edad = teclado.nextInt();
+
+
+
+        System.out.println( nombreM + " " + "Es un " + Tipo + " " + "el cual tiene" + " " + edad +" " + "años" + " "+"y"+" " + nombreD + " " + " " + "Es su actual dueño" );
+
+        teclado.close();
+    }
+
+}
+
+
+
+  </pre>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos JAVA</title>
+
+</head>
+
+<body>
+
+   
+
+    <p> VARIABLES JAVA</p>
+
+    <i> Java_Variables_Punto3.java</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+ package Taller1;
+
+import java.util.Scanner;
+
+public class Punto3 {
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        String nombre, nomp, apep,nomm,apem;
+
+
+        System.out.println("Ingrese Nombre");
+
+        nombre = teclado.nextLine();
+
+
+        System.out.println("Ingrese Nombre de su padre");
+
+        nomp = teclado.nextLine();
+
+        System.out.println("Ingrese Apellido de su padre");
+
+        apep = teclado.nextLine();
+
+        System.out.println("Ingrese Nombre de su madre");
+
+        nomm = teclado.nextLine();
+
+        System.out.println("Ingrese Apellido de su madre");
+
+        apem = teclado.nextLine();
+
+        System.out.println( "Usted se llama " + nombre +  " "  + apep + " " + apem + " " + "Y es hijo de " + " " + nomp + " " +  "y" + " " + nomm );
+
+        teclado.close();
+
+    }
+
+}
+
+
+  </pre>
+
+</body>
+</html>

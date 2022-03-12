@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos JAVA</title>
+
+</head>
+
+<body>
+
+   
+
+    <p> CICLOS JAVA</p>
+
+    <i> Java_ciclos_Punto5.java</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:1000px;" >
+
+TallerJava/Punto5.java
+@jullscol
+jullscol Taller3
+…
+Latest commit 4cde794 13 days ago
+ History
+ 1 contributor
+95 lines (63 sloc)  1.88 KB
+   
+package Taller3;
+
+
+
+    import java.util.Scanner;
+
+    public class Punto5 {
+
+         static Scanner sc = new Scanner(System.in);
+            static ContactoPunto6 agenda[] = new ContactoPunto6[3];
+            static int opcion = 0;
+            
+            static String nombre;
+           
+            public static void main(String[] args) {
+
+                do{
+                    mostrarMenu();
+                    
+                    while(pedirOpcion() == false);
+                    
+                    switch(opcion)
+                    {
+                    case 1:
+                        capturarNombre();
+                        break;
+                    case 2:
+                        Saludar();
+                        break;
+                    
+                    case 3:
+                        System.out.println("FIN DEL PROGRAMA");
+                    }
+                }while(opcion != 3);
+
+            }//Fin del metodo main()
+           
+            static void mostrarMenu()
+            {
+                System.out.println("\n");
+                System.out.println(" 1 - Capturar nombre");
+                System.out.println(" 2 - Saludar");
+                System.out.println(" 3 - Salir\n");
+            }
+           
+            static boolean pedirOpcion()
+            {
+                try
+                {
+                    System.out.print("\nIntroduzca opcion: ");
+                    opcion = sc.nextInt(); sc.nextLine();
+                    if (opcion >= 1 && opcion <= 3)
+                        return true;
+                    else
+                    {
+                        System.out.println("Error. Solo se admite valor entre 1 y 3.");
+                        return false;
+                    }
+                }
+                catch(Exception e)
+                {
+                    sc.nextLine();
+                    System.out.println("Error. Introduzca solo numeros, entre 1 y 3.");
+                    return false;
+                }
+            }
+            
+            
+            
+            static void capturarNombre() {
+                
+            System.out.print("Introduzca Nombre: ");
+                 nombre = sc.nextLine();
+                
+                
+                
+                }
+                
+          
+            static void Saludar() {
+         
+           
+               
+               if (nombre.equals("")) {
+                   
+                   System.out.print(" Se necesita introducir nombre");
+               }else
+               
+               
+               System.out.println("Hola " + nombre);
+               }
+            
+            
+            
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+
+
+
+
+
+
+  </pre>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+* {
+	font-family: 'Luxurious Roman', cursive;
+	font-weight: 100;
+
+}
+
+
+
+.container {
+
+	display: block;
+	padding: 20px 5px;
+
+	background: lightgrey;
+	width: 1024px;
+	margin: auto;
+}
+
+.estilo1 {
+     background-color: skyblue;
+
+}
+
+.estilo2 {
+     background-color: lightgreen;
+
+}
+
+.estilo3 {
+     background-color: lightyellow;
+
+}
+
+header {
+       background-color:  gray;
+ 	    text-align: center;
+
+ }
+
+figure img{
+ 	
+      border: 5px solid black;
+      box-shadow: 5px 5px 10px #876;
+      display: block;
+      margin: 0px auto;
+      
+ }
+
+nav {
+
+	text-align: center;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+.claseBoton {
+    background-color: #5c9;
+	padding: 10px;
+	border-radius: 10px;
+    transition: all 1s ;
+} 
+.claseBoton:hover {
+    padding: 10 px;
+	background-color: lightsteelblue;
+	
+
+}
+
+.claseBoton:active {
+    padding: 10 px;
+	background: darkgray;
+	
+	}
+
+
+.a:link {
+    background : red;
+	
+
+}
+
+.h2 {
+
+	text-align: center;
+}
+   
+ section {
+
+    text-align: center;
+
+ }
+
+
+ article {
+
+    text-align: center;
+
+ }
+
+
+ 
+ footer{
+
+ 	text-align: center;
+    
+ }
+
+.claseDownload {
+     background-color:  gray;
+    	padding: 15px;
+	border-radius: 15px;
+    transition: all 2s ;
+
+}
+.claseDownload:hover {
+   padding: 15 px;
+	background-color: black; 
+	
+
+}
+
+.claseDownload:active {
+    padding: 10 px;
+	background: red;
+	
+	}
+
+
+.a:link {
+    background : red;
+	padding: 10 px;
+
+
+}
+
+	
+
+
+#fun {
+
+	Display:none;
+}
+
+#funone {
+
+	Display:none;
+}
+
+
+#funtwo {
+
+	Display:none;
+}
+
+
+#funthree {
+
+	Display:none;
+}
+
+
+#estone {
+
+	Display:none;
+}
+
+#esttwo {
+
+	Display:none;
+}
+
+#estthree {
+
+	Display:none;
+}
+
+#refone {
+
+	Display:none;
+}
+
+#reftwo {
+
+	Display:none;
+}
+
+#refthree {
+
+	Display:none;
+}
+
+#refpone {
+
+	Display:none;
+}
+
+#refptwo {
+
+	Display:none;
+}
+
+#refpthree {
+
+	Display:none;
+}

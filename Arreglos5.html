@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="Estilo_portafolio.css">
+          <script src="codigo_portafolio.js"></script>
+
+    <title>Proyectos PSEINT</title>
+
+</head>
+
+<body>
+
+   
+
+    <p> ARREGLOS</p>
+
+    <i> Arreglos5.psc</i>
+    <pre style=" background-color:  lightgray;border: solid gray 1px; border-radius: 10px; padding: 
+    10px ; width:600px;" >
+
+Proceso sin_titulo
+    
+    definir fila, columna, multiplicar, resultado, dato1, dato2 como enteros;
+    Dimension multiplicar[10,10], resultado[10,10];
+
+    dato1<-0;
+    dato2<-0;
+    para fila <-1 Hasta  9 con paso 1 hacer
+        para columna<-1 Hasta 9 con paso 1 Hacer
+            resultado[fila,columna]<-fila*columna;
+        FinPara
+    FinPara
+    
+    
+    para fila <-1 Hasta  9 con paso 1 hacer
+        para columna<-1 Hasta 9 con paso 1 Hacer
+            escribir fila ," x ",columna, " " sin saltar;
+        FinPara
+        escribir " ";
+    FinPara
+    
+    
+    escribir " digita la fila:";
+    leer dato1;
+    escribir " digita la columna:";
+    leer dato2;
+    escribir "Resultado = ", dato1, " x ", dato2, " = ", resultado[dato1,dato2];
+    
+    
+
+    
+    
+    
+FinProceso
+
+
+
+<a class = "claseBoton" href="https://www.youtube.com/watch?v=zvcHCMYSHLo&t=4s">Video Arreglos Punto 5</a>
+
+
+  </pre>
+
+</body>
+</html>
