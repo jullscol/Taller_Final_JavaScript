@@ -28,5 +28,14 @@ function validarFormulario(evento) {
   }
 
     this.submit();
+
+    console.log("Nombre: ", nombre.value);
+    console.log("email: ", email.value);
+    console.log("Asunto: ", asunto.value);
+    console.log("Mensaje: ", texto.value);
+
+
+
+
 }
 
